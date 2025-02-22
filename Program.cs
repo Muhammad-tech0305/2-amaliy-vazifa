@@ -1,6 +1,5 @@
 ﻿using System;
-using System.ComponentModel.Design;
-/*
+// 1- daastur
 Console.WriteLine("< Bu \"KALKULYATOR\" dasturi >");
 
 Console.WriteLine("Ikkita son kiriting: ");
@@ -35,17 +34,18 @@ else if (amal == '%')
 }
 
 Console.WriteLine($"'{amal}' amali uchun natija: {natija}");
-*/
-/*
-Console.WriteLine("< Bu \"KETMA-KET RAQAMLAR YIG\'INDISINI HISOBLASH\" DASTURI >");
+
+// 2-dastur
+Console.WriteLine("\n< Bu \"KETMA-KET RAQAMLAR YIG\'INDISINI HISOBLASH\" DASTURI >");
 
 Console.Write("Musbat butun son kiriting:\n>>> ");
 int N = Convert.ToInt32(Console.ReadLine());
 
-int natija = (N+1)*N/2;
-Console.WriteLine($"{N} sonigacha bo'lgan raqamlar yig'indisi: {natija}.");
-*/
-Console.WriteLine("< Bu \"PARITET TEKSHIRUVI\" DASTURI >");
+int natija1 = (N+1)*N/2;
+Console.WriteLine($"{N} sonigacha bo'lgan raqamlar yig'indisi: {natija1}.");
+
+// 3-dastur
+Console.WriteLine("\n< Bu \"PARITET TEKSHIRUVI\" DASTURI >");
 
 Console.Write("Biror butun son kiriting: ");
 int n = Convert.ToInt32(Console.ReadLine());
